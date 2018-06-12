@@ -1,0 +1,188 @@
+body {
+    margin: 1px;
+    
+    width: auto;
+    height: 100vh;
+    
+    font-family: sans-serif;
+    
+    overflow: hidden;
+}
+.main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+    
+    overflow: hidden;
+    
+    background-color: rgb(239, 239, 239);
+}
+
+.container {
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    padding: 6px;
+    overflow-y: auto;
+    
+    width: 50%;
+    height: 80%;
+    
+    /* border: 3px solid black; */
+    border-radius: 12px;
+    
+    box-shadow: 0px 2px 10px 0px #0006;
+    background-color: white;
+}
+
+.division1 {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    
+    width: 100%;
+    height: 35%;
+    
+    /* background-color: blue */
+}
+
+.division2 {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    
+    overflow-y: auto;
+
+    border-style: solid;
+    border-color: #c5c2c2;
+    border-width: 2px 0 0 0;
+    border-radius: 0px 0px 3px 3px;
+    
+    width: 100%;
+    min-height: 64%;
+    
+    
+    /* background-color: rgb(255, 0, 0) */
+}
+.d2Infos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+.division2Titulo {
+    width: 76%;
+}
+
+.taskName {
+    box-sizing: border-box;
+    
+    padding: 7px;
+    
+    width: 100%;
+    
+    border-width: 0px 0px 2px 0px;
+    border-color: #0000004d;;
+    
+    font-size: 16px;
+    
+    margin-bottom: 40px;
+    
+}
+.taskName:hover {
+    border-color: blue;
+}
+.addTask {
+    appearance: none;
+    text-decoration: none;
+    
+    border: 1px solid transparent;
+    border-radius: 2px;
+    
+    padding: 8px 10px;
+    margin-top: 20px;
+    
+    background-color: #2bc6bb;
+    
+    color: white;
+}
+.addTask:hover {
+    
+    background-color: #24968e;
+    
+    color: white;
+}
+
+.taskBox {
+    
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: auto;
+    
+    border: 1px solid #0000004d;
+
+    margin-bottom: 3px;
+}
+.taskItem {
+    border: none;
+    
+    width: 100%;
+    font-size: 16px; 
+    
+    padding: 8px 18px;
+}
+.removeTask {
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    
+    height: 33px; 
+    width: 36px;
+    
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-left: 4px;
+    
+    border: 1px solid transparent;
+    background-color: tomato;
+    
+    color: white;
+    
+    font-size: 55px;
+    text-align: center;
+    line-height: 21px;
+    
+}
+.removeAll {
+    appearance: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+    border: 1px solid transparent;
+    border-radius: 2px;
+    
+    padding: 8px 10px;
+    
+    background-color: #000000;
+    
+    font-size: 18px;
+    color: white;
+}
+.removeAll:hover {
+    
+    background-color: #860000;
+    
+    color: white;
+}
