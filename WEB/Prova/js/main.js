@@ -1,3 +1,19 @@
+function addEventPressEnter() {
+    //obtenho o lugar onde vou adicionar o evento
+    var taskName = document.querySelector('.taskName')
+    console.log(taskName)
+
+    //evento
+    taskName.addEventListener('keyup', function(event) {
+        console.log(event.keyCode)
+        if(event.keyCode === 13)
+            //açao que acontecera quando a key for enter
+            //clique no botao de adicionar tarefa
+            document.querySelector('.addTask').click()
+    })
+}
+
+
 function funcAddTask(e) {
     
     //onde sera adicionada a task
